@@ -1,4 +1,4 @@
-}
+
 #Mei {
 	color: #ff3c00;
 }
@@ -16,15 +16,36 @@
 }
 
 .jumbotron {
-	color: #000;
+	color: white;
+	background-color: #29164d;
+	background-size: cover;
 	text-align: justify;
+
+#jumbotron2 {
+background-color: pink;
+
 }
-#Tables{
+#tables{
 	background-color: pink;
 }
 h3 {
 	text-transform: uppercase;
 }
 #tables {
-	background-color: grey;
+	background-color: black;
+	border-style: 2px solid red;
+}
+
+#carousel {
+	background-color: black;
+	opacity: O.5;
+	width: 40px;
+	height: 80px;
+}
+
+#vous {
+	font-size: 150px;
+}
+.Title {
+	color: red;
 }
