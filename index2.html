@@ -19,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="form-contact.css">
+    <link rel="stylesheet" type="text/css" href="form-reservation.css">
 </head>
 
 <body>
@@ -321,6 +323,105 @@
 
 <!--FIN PHOTOS -->
 
+<!-- Formulaire contact -->
+<section class="container contacteznous">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="contact_info">
+                <h5 class="form-h5-title">
+                    Contactez-Nous
+                </h5>
+                <p class="form-contact_info-desc">
+                    Une salle à louer ou participer à nos évenements,
+                    <br/>profitez de notre Zy'coop ou être collaborateur,
+                    <br/> n'hésitez pas à nous laisser vos coordonnées et
+                    <br/>un message expliquant votre choix.
+                </p>
+                <ul class="social_list">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="icon_list pt50">
+                    <li>
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>
+                Rue de l'Usine 9a
+                <br/> 5032 Mazy
+                <br/> Belgique
+              </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>
+                <strong>0478/46.00.65</strong>
+              </span>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <span>
+              <strong>info@mazyculture.org</strong>
+              </span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <p>
+            <div class="contact_form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Sujet">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" cols="4" rows="4" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group text-right">
+                    <button class="btn btn-rounded btn-primary">Envoyer</button>
+                </div>
+            </div>
+            </p>
+        </div>
+</section>
+<!-- Fin formulaire Contact -->
+
+<!-- Formulaire Réservation -->
+<section class="container reservation_section">
+    <form action="">
+        <div class="form-group reservation_form">
+            <h2 class="reservation_form-title">Formulaire de réservation</h2>
+            <input id="prenom" type="text" class="form-control" placeholder="Prénom">
+            <input id="nom" type="text" class="form-control" placeholder="Nom">
+            <select id="evenement" class="custom-select">
+                <option selected>Choisissez votre évènement</option>
+                <option value="event1">Super évènement 1</option>
+                <option value="event2">Soirée cabaret ultime 2</option>
+                <option value="event3">Concert de folie 3</option>
+            </select>
+            <label for="nombreDeReservAdulte">Nombre de personnes adultes</label>
+            <input id="nombreDeReservAdulte" type="number" class="form-control number" value="0">
+            <label for="nombreDeReservEnfant">Nombre de personnes enfants</label>
+            <input id="nombreDeReservEnfant" type="number" class="form-control number" value="0">
+            <button type="submit" class="btn btn-rounded btn-primary">Réserver</button>
+        </div>
+    </form>
+</section>
+<!-- Fin formulaire -->
+</div>
 
 
 <!--liens script js -->
