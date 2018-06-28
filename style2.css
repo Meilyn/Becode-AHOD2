@@ -15,7 +15,7 @@ body {
 
 /* NAV */
 .navbar{
-    background-color: #0C1E73;
+    background-color: #002748;
 }
 
 .navbar .navbar-brand {
@@ -34,10 +34,10 @@ body {
 /* FIN NAV */
 
 /* CAROUSEL */
- .carousel-caption{
+.carousel-caption{
      top: 30%;
      bottom: auto;
-     font-size: x-large;
+     font-size: xx-large;
  }
 
 .cover-date{
@@ -50,7 +50,7 @@ body {
 
 .jumbotron {
     color: white;
-    background-color: #0C1E73;
+    background-color: #002748;
     background-size: cover;
     border-radius: 0%;
 
@@ -76,16 +76,46 @@ hr {
     padding: 10px 10px 10px 10px ;
 }
 
+.btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-danger a:hover {
+    text-decoration: none;
+    color: white;
+}
 /* FIN RESERVATION/MODAL */
 
+/* EVENEMENT */
+
+.un{
+    background-color: #9fcdff;
+}
+
+.rounded-circle {
+    width: 100px;
+}
+
+
+/* FIN EVENEMENT*/
+
 /* PHOTOS */
+
+.pb100{
+    background-color: #002748; ;
+}
+
 #photos{
     margin-top: 20px;
+    color: white;
 }
 
 .section_title{
     padding-top: 15px;
 }
 
-
+.card{
+    border-style: none;
+}
 /* FIN PHOTOS */
