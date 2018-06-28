@@ -117,5 +117,12 @@ hr {
 
 .card{
     border-style: none;
+    overflow: hidden;
+}
+
+img.photozoomhover:hover {
+	transform: scale(1.2);
+    transition: transform ease .2s; 
+    cursor: pointer;
 }
 /* FIN PHOTOS */
