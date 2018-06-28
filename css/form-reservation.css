@@ -2,6 +2,7 @@
 
 #prenom, 
 #nom,
+#telephone,
 #evenement,
 #nombreDeReservEnfant,
 #nombreDeReservAdulte {
@@ -15,13 +16,15 @@
 
 select:focus{   
   border-color: teal!important;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px tomato!important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rebeccapurple!important;
   outline: 0 none!important;
 }
-select option {
-    background: rebeccapurple!important;
+select option:hover:not(:focus) {
+    background-color: rebeccapurple!important;
     color: #fff!important;
 }
+
+
 .reservation_form button {
     color: white;
     background-color: rebeccapurple;
@@ -30,8 +33,9 @@ select option {
 }
 .reservation_form button:hover {
     color: white;
-    background-color: tomato;
-    border-color: tomato;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    transition: 250ms ease-in-out;
 }
 .reservation_form button:active {
     background-color: lightcoral;
