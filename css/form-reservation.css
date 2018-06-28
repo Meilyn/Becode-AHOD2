@@ -31,8 +31,13 @@ select option {
 .reservation_form button:hover {
     color: white;
     background-color: tomato;
-    border-color: darkgrey;
+    border-color: tomato;
 }
+.reservation_form button:active {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
 
 .reservation_form-title {
     margin-bottom: 20px;
