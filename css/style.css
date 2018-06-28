@@ -1,0 +1,51 @@
+
+#Mei {
+	color: #ff3c00;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+ }
+ 
+ .carousel-caption {
+    top: 40%;
+    bottom: auto;
+    text-transform: uppercase;
+    background-color: rgba(197.197.197);
+}
+
+.jumbotron {
+	color: white;
+	background-color: #29164d;
+	background-size: cover;
+	text-align: justify;
+
+#jumbotron2 {
+background-color: pink;
+
+}
+#tables{
+	background-color: pink;
+}
+h3 {
+	text-transform: uppercase;
+}
+#tables {
+	background-color: black;
+	border-style: 2px solid red;
+}
+
+#carousel {
+	background-color: black;
+	opacity: O.5;
+	width: 40px;
+	height: 80px;
+}
+
+#vous {
+	font-size: 150px;
+}
+.Title {
+	color: red;
+}
