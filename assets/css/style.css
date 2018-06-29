@@ -1,4 +1,127 @@
-.red {
-	height: 600px;
-	background-color: pink;
+/* GENERAL */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+/*.anchor{
+    display:block;
+    height: 5px;
+    width:100%;
+    visibility:hidden;
+}*/
+
+/* FIN GENERAL */
+
+/* NAV */
+.navbar{
+    background-color: #29164D;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: lighter;
+}
+
+.navbar .navbar-nav > li > a {
+    color: white;
+    font-weight: lighter;
+}
+
+/* FIN NAV */
+
+/* CAROUSEL */
+.carousel-caption{
+     top: 30%;
+     bottom: auto;
+     font-size: xx-large;
+ }
+
+.cover-date{
+    font-size: large;
+}
+
+/* FIN CAROUSEL */
+
+/* A PROPOS */
+
+.jumbotron {
+    color: white;
+    background-color: #29164D;
+    background-size: cover;
+    border-radius: 0%;
+
+}
+
+.jumbotron p {
+    font-size: large;
+    font-weight: lighter;
+}
+
+hr {
+    border : 0.5px solid #FFF;
+}
+
+/* FIN A PROPOS */
+
+/* RESERVATION/MODAL */
+
+.col-lg-4{
+    border-style: solid;
+    border-width: thin;
+    border-color: #b9bbbe;
+    padding: 10px 10px 10px 10px ;
+}
+
+.btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-danger a:hover {
+    text-decoration: none;
+    color: white;
+}
+/* FIN RESERVATION/MODAL */
+
+/* EVENEMENT */
+
+.un{
+    background-color: #9fcdff;
+}
+
+.rounded-circle {
+    max-height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+
+/* FIN EVENEMENT*/
+
+/* PHOTOS */
+
+.pb100{
+    background-color: white;
+}
+
+#photos{
+    margin-top: 20px;
+    color: white;
+}
+
+.section_title{
+    padding-top: 15px;
+}
+
+.card{
+    border-style: none;
+}
+
+img.photozoomhover:hover {
+    transform: scale(1.2);
+    transition: transform ease .2s;
+    cursor: pointer;
+}
+
+/* FIN PHOTOS */

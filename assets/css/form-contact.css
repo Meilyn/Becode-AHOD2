@@ -39,7 +39,7 @@ li {
 }
 
 .social_list li a:hover {
-    color: tomato;
+    color: lightgreen;
     transition: 250ms ease-in-out;
 }
 
@@ -81,8 +81,29 @@ li {
 }
 .contact_form button:hover {
     color: white;
-    background-color: tomato;
-    border-color: tomato;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    transition: 250ms ease-in-out;
+}
+
+textarea {
+    border: none!important;
+}
+
+textarea,
+option,
+input[type=text],
+input[type="number"],
+input[type="email"] {
+    border-radius: 0!important;
+    background-color: aliceblue!important;
+    caret-color: rebeccapurple;
+    border: 0;
+    color: rebeccapurple;
+}
+
+input[type="number"] {
+    width: 70px;
 }
 
 input[type="text"]:focus,
@@ -100,13 +121,18 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-    border-color: teal;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px tomato;
+    border: 0;
+    color: rebeccapurple;
+    background-color: white;
+    -webkit-transition: all ease-in-out 0.4s;
+    -ms-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rebeccapurple;
     outline: 0 none;
 }
 
 textarea:focus {
     border-color: teal!important;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px tomato!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rebeccapurple!important;
     outline: 0 none!important;
 }
