@@ -152,3 +152,80 @@ img.photozoomhover:hover {
 }
 
 /* FIN CONTACT */
+
+/* FOOTER */
+.footer .page-footer {
+    background: #29164D;
+    color: #fff;
+}
+
+.footer .fa-twitter,
+.footer .fa-facebook,
+.footer .fa-dribbble,
+.footer .fa-google-plus {
+    color: white;
+}
+
+.footer .fa-twitter:hover {
+    color: rgb(0, 172, 237);
+}
+
+.footer .fa-facebook:hover {
+    color: rgb(59, 89, 152);
+}
+
+.footer .fa-dribbble:hover {
+    color: rgb(234, 76, 137);
+}
+
+.footer .fa-google-plus:hover {
+    color: rgb(211, 72, 54);
+}
+
+.footer .footer-copyright {
+    background: #29164D;
+    color: #fff;
+}
+
+.footer .footer-copyright a {
+    color: #ff2b43;
+}
+
+.footer .footer-copyright a:hover {
+    color: #fff;
+}
+
+.footer .bg-button-social {
+    border: 0.0625em solid rgb(100, 100, 100);
+    text-align: justify;
+    padding-top: 0.3675em;
+    padding-bottom: 0.1275em;
+    font-size: 0.8em;
+}
+
+.footer .createdby {
+    font-size: 0.7em;
+}
+
+.footer hr {
+    margin-bottom: 2em;
+    background: rgba(45, 45, 45, 0.8);
+}
+
+.footer h5 {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+.footer .connectus {
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(200, 200, 200);
+}
+
+.footer .elementFooter hr {
+    margin-top: -1em;
+    margin-bottom: 0.5em;
+    background: rgba(45, 45, 45, 0.8);
+}
+
