@@ -120,3 +120,7 @@ hr {
     border-style: none;
 }
 /* FIN PHOTOS */
+
+.navbar-toggler-icon {
+    border-color: white!important;
+}
