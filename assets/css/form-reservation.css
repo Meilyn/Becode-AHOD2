@@ -15,7 +15,7 @@
 }
 
 select:focus{
-    border-color: #AF6EE2!important;
+    border-color: lightgreen!important;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #29164D!important;
     outline: 0 none!important;
 }
@@ -33,13 +33,13 @@ select option:hover:not(:focus) {
 }
 .reservation_form button:hover {
     color: white;
-    background-color: #AF6EE2;
-    border-color: #AF6EE2;
+    background-color: lightgreen;
+    border-color: lightgreen;
     transition: 250ms ease-in-out;
 }
 .reservation_form button:active {
-    background-color: #AF6EE2;
-    border-color: #AF6EE2;
+    background-color: lightgreen;
+    border-color: lightgreen;
 }
 
 
