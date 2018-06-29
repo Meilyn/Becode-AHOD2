@@ -2,9 +2,9 @@
 ## Equipe Mazi Culture Guerrila  
 ### Membres de l'équipe
   
-[Meilyn Andrade](https://github.com/Meilyn)
-[Muyshond Daniel](https://github.com/dmshd)
-[Jean-François Geerinckx](https://github.com/JFGEER83)
+[Meilyn Andrade](https://github.com/Meilyn)  
+[Muyshond Daniel](https://github.com/dmshd)  
+[Jean-François Geerinckx](https://github.com/JFGEER83)  
 
 ## à propos de Mazy Culture
 
