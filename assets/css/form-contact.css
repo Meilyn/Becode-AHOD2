@@ -35,11 +35,11 @@ li {
     font-size: 2.4em;
     padding: 5px 10px;
     text-decoration: none;
-    color: rebeccapurple;
+    color: #29164D;
 }
 
 .social_list li a:hover {
-    color: lightgreen;
+    color: #AF6EE2;
     transition: 250ms ease-in-out;
 }
 
@@ -51,7 +51,7 @@ li {
 }
 
 .icon_list li i {
-    background-color: rebeccapurple;
+    background-color: #29164D;
     display: block;
     border-radius: 5px;
     margin: 5px;
@@ -75,14 +75,14 @@ li {
 
 .contact_form button {
     color: white;
-    background-color: rebeccapurple;
-    border-color: rebeccapurple;
+    background-color: #29164D;
+    border-color: #29164D;
     width: 100%;
 }
 .contact_form button:hover {
     color: white;
-    background-color: lightgreen;
-    border-color: lightgreen;
+    background-color: #AF6EE2;
+    border-color: #AF6EE2;
     transition: 250ms ease-in-out;
 }
 
@@ -97,9 +97,9 @@ input[type="number"],
 input[type="email"] {
     border-radius: 0!important;
     background-color: aliceblue!important;
-    caret-color: rebeccapurple;
+    caret-color: #29164D;
     border: 0;
-    color: rebeccapurple;
+    color: #29164D;
 }
 
 input[type="number"] {
@@ -122,17 +122,17 @@ input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
     border: 0;
-    color: rebeccapurple;
+    color: #29164D;
     background-color: white;
     -webkit-transition: all ease-in-out 0.4s;
     -ms-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rebeccapurple;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px #29164D;
     outline: 0 none;
 }
 
 textarea:focus {
-    border-color: teal!important;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rebeccapurple!important;
+    border-color: #AF6EE2!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px #29164D!important;
     outline: 0 none!important;
 }

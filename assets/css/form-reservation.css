@@ -11,35 +11,35 @@
 
 .bootstrap-select.btn-group .dropdown-menu li a:hover {
     color: white !important;
-    background: rebeccapurple !important;
+    background: #29164D !important;
 }
 
 select:focus{
-    border-color: teal!important;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rebeccapurple!important;
+    border-color: #AF6EE2!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #29164D!important;
     outline: 0 none!important;
 }
 select option:hover:not(:focus) {
-    background-color: rebeccapurple!important;
+    background-color: #29164D!important;
     color: #fff!important;
 }
 
 
 .reservation_form button {
     color: white;
-    background-color: rebeccapurple;
-    border-color: rebeccapurple;
+    background-color: #29164D;
+    border-color: #29164D;
     width: 100%;
 }
 .reservation_form button:hover {
     color: white;
-    background-color: lightgreen;
-    border-color: lightgreen;
+    background-color: #AF6EE2;
+    border-color: #AF6EE2;
     transition: 250ms ease-in-out;
 }
 .reservation_form button:active {
-    background-color: lightcoral;
-    border-color: lightcoral;
+    background-color: #AF6EE2;
+    border-color: #AF6EE2;
 }
 
 

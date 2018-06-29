@@ -27,7 +27,7 @@
 <!-- HEADER -->
 
 <!-- MENU -->
-<nav class="navbar navbar-expand-sm justify-content-end">
+<nav class="navbar navbar-expand-sm sticky-top justify-content-end">
     <a class="navbar-brand"  href="#"><h3>MAZY CULTURE</h3></a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -46,7 +46,7 @@
                 <a class="nav-link scroll" href="#photo">PHOTOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link scroll" href="#">EVENEMENTS</a>
+                <a class="nav-link scroll" href="#event">EVENEMENTS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link scroll" href="#contact">CONTACTS</a>
@@ -66,7 +66,7 @@
                     <h1 class="cover-lg-text">MAZY CULTURE</h1>
                     <h4>UNE SALLE ET UNE COOPÉRATIVE POUR VOUS</h4>
                     <p class="cover-date">Devenez coopérateur et rejoignez la belle aventure de Mazy Culture</p>
-                    <a href="#contact" class=" btn btn-danger btn-rounded" >Contactez-Nous</a>
+                    <a href="#contact" class=" btn btn-danger btn-rounded">Contactez-Nous</a>
                 </div>
             </div>
         </div>
@@ -90,14 +90,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br/><br/>
 <!-- A PROPOS -->
 
 <span id="reservation"></span>
 <!-- RESERVATION -->
 <!-- Three columns of text below the carousel -->
 <div class="container">
-    <h2>RESERVATION</h2><hr>
+    <!--<h2>RESERVATION</h2><hr>-->
     <div class="container">
     <div class="row">
         <div class="col-lg-4">
@@ -157,7 +157,7 @@
                         <!-- Modal footer -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                            <button class="btn btn-danger">Réservation</button>
+                            <button class="btn btn-danger"><a href="#form">Réservation</a></button>
                             <button class="btn btn-danger"><a href="Calendrier-Zy'coop.xlsx">Calendrier</a></button>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                         <!-- Modal footer -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                            <button class="btn btn-danger">Réservation</button>
+                            <button class="btn btn-danger"><a href="#form">Réservation</a></button>
                             <button class="btn btn-danger"><a href="Calendrier-Zy'coop.xlsx">Calendrier</a></button>
                         </div>
                     </div>
@@ -261,7 +261,7 @@
                         <!-- Modal footer -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                            <button class="btn btn-danger">Réservation</button>
+                            <button class="btn btn-danger"><a href="#form">Réservation</a></button>
                             <button class="btn btn-danger"><a href="Calendrier-Zy'coop.xlsx">Calendrier</a></button>
                         </div>
                     </div>
@@ -274,13 +274,82 @@
     <!-- /.row -->
     </div>
 </div>
+<br/><br/>
+<span id="form"></span>
+<!-- Formulaire Réservation -->
+<div class="container reserv">
+    <section class="container reservation_section">
+        <form action="">
+            <div class="form-group reservation_form">
+                <h2 class="reservation_form-title">Formulaire de réservation</h2>
+                <select id="evenement" class="custom-select">
+                    <option selected>Choisissez votre évènement</option>
+                    <option value="event1">Super évènement 1</option>
+                    <option value="event2">Soirée cabaret ultime 2</option>
+                    <option value="event3">Concert de folie 3</option>
+                </select>
+                <input id="nom" type="text" class="form-control" placeholder="Nom">
+                <input id="telephone" type="text" class="form-control" placeholder="Un numéro de téléphone">
+                <label for="nombreDeReservAdulte">Nombre de personnes adultes</label>
+                <input id="nombreDeReservAdulte" type="number" class="form-control number" value="0">
+                <label for="nombreDeReservEnfant">Nombre de personnes enfants</label>
+                <input id="nombreDeReservEnfant" type="number" class="form-control number" value="0">
+                <button type="submit" class="btn btn-rounded btn-primary">Réserver</button>
+            </div>
+        </form>
+    </section>
+</div><br/><br/>
+
+<!-- Fin formulaire -->
 
 <!-- FIN RESERVATIONS -->
 
-<!-- EVENEMENTS -->
-<div class="container">
-    <div class="row">
+<span id="event"></span>
 
+<!-- EVENEMENTS -->
+
+<div class="container">
+    <div class="row event">
+
+        <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top rounded-circle mx-auto d-block" src="assets/img/photos/mentalist_opt.jpg" alt="concert">
+                    <div class="card-body">
+                        <h4 class="card-title">Brain Damage</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Vendredi 15 juin</li>
+                            <li class="list-group-item">Entrée  10 €</li>
+                        </ul>
+                        <button class="btn btn-danger"><a href="#form">Réservation</a></button>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top rounded-circle mx-auto d-block" src="assets/img/photos/noemie_opt.jpg" alt="concert">
+                    <div class="card-body">
+                        <h4 class="card-title">Noémie Rhea</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Vendredi 12 octobre </li>
+                            <li class="list-group-item">Entrée  10 €</li>
+                        </ul>
+                        <button class="btn btn-danger"><a href="#form">Réservation</a></button>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top rounded-circle mx-auto d-block" src="assets/img/photos/bells_opt.jpg" alt="concert">
+                    <div class="card-body">
+                        <h4 class="card-title">Fucking Bells</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Vendredi 31 août</li>
+                            <li class="list-group-item">Entrée  10 €</li>
+                        </ul>
+                        <button class="btn btn-danger"><a href="#form">Réservation</a></button>
+                    </div>
+                </div>
+        </div>
     </div>
 </div>
 
@@ -293,7 +362,7 @@
 <section class="pb100" id="photos">
     <div class="container">
         <div class="section_title mb-2">
-            <h2 class="title">PHOTOS</h2>
+            <!--<h2 class="title">PHOTOS</h2>-->
             <br/>
         </div>
     </div>
@@ -320,13 +389,13 @@
         </div>
     </div>
 </section>
-
+<br/><br/>
 <!--FIN PHOTOS -->
 
 <span id="contact"></span>
 
 <!-- Formulaire contact -->
-
+<div class="container contact">
 <section class="container contacteznous">
     <div class="row">
         <div class="col-md-6">
@@ -378,7 +447,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <p>
+
             <div class="contact_form">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Nom">
@@ -396,33 +465,64 @@
                     <button class="btn btn-rounded btn-primary">Envoyer</button>
                 </div>
             </div>
-            </p>
         </div>
+    </div>
 </section>
+</div><br/>
+
 <!-- Fin formulaire Contact -->
 
-<!-- Formulaire Réservation -->
-<section class="container reservation_section">
-    <form action="">
-        <div class="form-group reservation_form">
-            <h2 class="reservation_form-title">Formulaire de réservation</h2>
-            <select id="evenement" class="custom-select">
-                <option selected>Choisissez votre évènement</option>
-                <option value="event1">Super évènement 1</option>
-                <option value="event2">Soirée cabaret ultime 2</option>
-                <option value="event3">Concert de folie 3</option>
-            </select>
-            <input id="nom" type="text" class="form-control" placeholder="Nom">
-            <input id="telephone" type="text" class="form-control" placeholder="Un numéro de téléphone">
-            <label for="nombreDeReservAdulte">Nombre de personnes adultes</label>
-            <input id="nombreDeReservAdulte" type="number" class="form-control number" value="0">
-            <label for="nombreDeReservEnfant">Nombre de personnes enfants</label>
-            <input id="nombreDeReservEnfant" type="number" class="form-control number" value="0">
-            <button type="submit" class="btn btn-rounded btn-primary">Réserver</button>
-        </div>
-    </form>
+<!-- FOOTER -->
+
+<section class="footer" id="footer">
+
+    <footer class="page-footer font-small pt-4 mt-4">
+
+        <div class="container text-center text-md-left">
+
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item bg-button-social">
+                    <a class="btn-floating btn-fb mx-1" href="https://fr-fr.facebook.com/" target="_blank" title="Facebook" rel="noreferrer">
+                        <i class="fab fa-facebook fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item bg-button-social">
+                    <a class="btn-floating btn-tw mx-1" href="https://twitter.com/?lang=fr" target="_blank" title="Twitter" rel="noreferrer">
+                        <i class="fab fa-twitter fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item bg-button-social">
+                    <a class="btn-floating btn-gplus mx-1" href="https://plus.google.com/discover" target="_blank" title="Google +" rel="noreferrer">
+                        <i class="fab fa-google-plus fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item bg-button-social">
+                    <a class="btn-floating btn-dribbble mx-1" href="https://dribbble.com/" target="_blank" title="Dribbble" rel="noreferrer">
+                        <i class="fab fa-dribbble fa-2x"> </i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- FOOTER/COPYRIGHT -->
+            <div class="footer-copyright text-center py-4">© 2018 Copyright: Mazy Culture.
+                <div class="createdby">
+                    Created by
+                    <a href="https://github.com/Meilyn" target="_blank" rel="noreferrer"> Meilyn Andrade</a>
+                    &
+                    <a href="https://github.com/dmshd" target="_blank" rel="noreferrer"> Daniel Muyshond</a>
+                    &
+                    <a href="https://github.com/JFGEER83" target="_blank" rel="noreferrer"> Jean-François Geerinckx</a>
+                </div>
+                <!-- FOOTER/COPYRIGHT -->
+            </div>
+
+    </footer>
+
 </section>
-<!-- Fin formulaire -->
+
+<!-- FOOTER -->
+
+
 </div>
 
 
