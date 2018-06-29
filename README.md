@@ -1,8 +1,12 @@
 # BeCode.org challenge : "6 hours and 3 weeks"
 ## Equipe Mazi Culture Guerrila  
 ### Membres de l'équipe
+  
 [Meilyn Andrade](https://github.com/Meilyn)
+[Muyshond Daniel](https://github.com/dmshd)
+[Jean-François Geerinckx](https://github.com/JFGEER83)
 
+## à propos de Mazy Culture
 
 Mazy Culture, c'est tout d'abord une salle à louer, la Zy'coop. Située à Mazy, elle se trouve à 15 km de Namur, à 9 km de Gembloux, à 3 km de la E42. Pour un anniversaire, une réunion, un repas de famille, un barbecue. Pour organiser un spectacle, un concert, une exposition.
 
