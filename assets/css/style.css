@@ -116,6 +116,7 @@ hr {
 
 .card{
     border-style: none;
+    overflow: hidden;
 }
 
 img.photozoomhover:hover {
