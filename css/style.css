@@ -28,15 +28,22 @@
 h3 {
 	text-transform: uppercase;
 }
+
 #tables {
 	background-color: black;
-	border-style: 2px solid red;
+	border: 2px solid red;
 }
 
 #carousel {
 	background-color: black;
+<<<<<<< HEAD
 	opacity: O.5;
 	height: auto;
+=======
+	opacity: 0.5;
+	width: 40px;
+	height: 80px;
+>>>>>>> JF
 }
 
 #vous {
@@ -46,6 +53,17 @@ h3 {
 	color: red;
 }
 
+<<<<<<< HEAD
 li {
 	list-style: none;
 }
+=======
+/*footer*/
+
+.bg-4 {
+	background-color: black;
+	color: #ffffff;
+}
+
+
+>>>>>>> JF
